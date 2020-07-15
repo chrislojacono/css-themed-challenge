@@ -34,3 +34,27 @@
   background-color: rgb(85, 192, 192);
 }
 /* Header and Photo background */
+
+.head{
+    background-color: black;
+    height: 19em;
+    text-align: center;
+    
+}
+.head h1{
+    padding-top: 4em;
+    letter-spacing: .35em;
+    text-transform: uppercase;
+
+
+}
+.head h4{
+    padding-top: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.head h1, .head h4{
+    color: blanchedalmond;
+    
+    
+}
