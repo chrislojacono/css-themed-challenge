@@ -1,37 +1,36 @@
 /* All CSS for the navigation bar */
-.navbar{
-    background-color: teal;
-    height: 4em;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    }
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-.navbar a{
-    display: flex;
-    margin: 2em;
-    justify-content: space-around;
+.navbar {
+  background-color: teal;
+  height: 4em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
 }
-.navbar ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    text-transform: uppercase;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar a:link{
-    text-decoration: none;
+.navbar a {
+  display: flex;
+  margin: 2em;
+  justify-content: space-around;
+  color: whitesmoke;
 }
-.navbar li:hover{
-    background-color: rgb(85, 192, 192);
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  text-transform: uppercase;
+}
 
+.navbar a:link {
+  text-decoration: none;
+}
+.navbar li:hover {
+  background-color: rgb(85, 192, 192);
 }
 /* Header and Photo background */
