@@ -58,3 +58,10 @@
     
     
 }
+
+/* Putting the large image here */
+
+.background img{
+   height:65%;
+   width: 100%;
+   }
