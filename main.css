@@ -1,4 +1,4 @@
-/* All CSS for the navigation bar */
+                          /* All CSS for the navigation bar */
 .navbar {
   background-color: teal;
   height: 4em;
@@ -33,7 +33,7 @@
 .navbar li:hover {
   background-color: rgb(85, 192, 192);
 }
-/* Header and Photo background */
+                                /* Header and Photo background */
 
 .head{
     background-color: black;
@@ -59,14 +59,14 @@
     
 }
 
-/* Putting the large image here */
+                          /* Putting the large image here  for homepage*/
 
 .background img{
    height:65%;
    width: 100%;
    }
 
-   /* This is the text section */
+                             /* This is the text section homepage */
 
 .text-section{
     display: flex;
@@ -79,6 +79,7 @@
 }
 .text-section p{
     width:90%;
+    margin-bottom: 60px;
     
     
     
@@ -98,12 +99,75 @@
     padding-bottom:30px;
     
 }
+.lists li{
+  font-size: large;
+}
 .lists h3{
     margin-bottom: 30px;
     color: teal;
 }
 
-/* This is the footer */
+                        /* This is the bottom section homepage*/
+
+.bottom-section{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 100%;
+  
+
+}
+.popular-links{
+  width: 40%;
+  height: 40%;
+  
+}
+.popular-links a, .more-links a, .more-links li, .popular-links li{
+  color: white;
+  list-style-type: none;
+  margin-top: .45em;
+  margin-bottom: .45em;
+  height: 100%;
+  width: 100%;
+  padding: .2em;
+
+  
+}
+
+.more-links{
+  width: 40%;
+  height: 40%;
+}
+.sidebar-socialmedia{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.socialmedialogos{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 60px;
+  padding-top: 20px;
+  
+}
+.socialmedialogos img{
+  width: 50%;
+  height: 50%;
+  margin: 1px;
+  }
+.socialmedialogos img:hover{
+  background-color: turquoise;
+}
+                          /* This is the footer */
+
+
 footer{
    background-color: teal;
    color: rgb(237, 242, 243);
@@ -111,3 +175,83 @@ footer{
    text-align: center;
    padding-top: 30px;
 }
+
+
+                            /* CLIMBING PAGE */
+.head__climbing{
+  background-color: black;
+  color: blanchedalmond;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+
+}
+.head__climbing h1{
+    padding-top: .2em;
+    letter-spacing: .35em;
+    text-transform: uppercase;
+}
+.head__climbing p{
+  font-size: small;
+  
+}
+.picture-section{
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  margin:
+  
+}
+.picture-section div{
+  margin-right: 40px;
+  
+}
+.picture-section img{
+  height: 100%;
+  width: 100%;
+  border: teal 3px solid;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+.image__1{
+  height: 20%;
+  width: 20%;
+  margin-top: 15px;
+  
+}
+.image__2{
+  height: 20%;
+  width: 20%;
+  margin-top: 10px;
+ 
+}
+.image__4{
+  height: 20%;
+  width: 20%;
+  margin-top: 20px;
+  
+}
+.image__5{
+  height: 20%;
+  width: 20%;
+  
+}
+.climbinggeneralinfo{
+  height: 300px;
+  width: 60%;
+  margin: 50px;
+  
+}
+.climbinggeneralinfo-header p{
+  
+
+}
+.climbinggeneralinfo-header h2{
+  margin: 40px;
+
+}
+  
